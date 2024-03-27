@@ -119,6 +119,7 @@ choices.forEach((choice) => {
 const resetGame=()=>{
 	com_score=0;
 	user_score=0;
+	msg.innerText="Play Your Move:";
 	d_com_score.innerText=0;
 	d_user_score.innerText=0;
 	console.log("reset game ");
