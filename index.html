@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>R.P.S.</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+ 	<link rel="stylesheet" type="text/css" href="p3.css">
+</head>
+<body>
+	<h1>ROCK-PAPER-SCISSOR</h1>
+		<div class="choices">
+			<div class="choice" id="rock">
+			<img  src="images/rok.png" alt="rock"></div>
+		<div class="choice" id="paper">
+			<img src="images/pap.png" alt="paper"></div>
+		<div class="choice" id="scissor" >
+			<img src="images/sci.png" alt="scissor"></div>
+	</div>
+
+	<table class="container table">
+		<thead>
+			<tr>
+				<th scope="col">Sr.No.</th>
+				<th scope="col" >user__score </th>
+				<th scope="col" >bot__score</th>
+			</tr>
+		</thead>
+		<tbody id="tableBody">
+			<tr>
+				<th scope="row">1</th>
+				<td id="d_user_score">0</td>
+				<td id="d_com_score">0</td>
+			</tr>
+		</tbody>
+	</table>
+	<p class="container my-5"  id="msg"></p>
+	<button id="reset" class="container-fluid btn btn-info ">Reset</button>
+</body>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="p3.js"></script>
+</html>

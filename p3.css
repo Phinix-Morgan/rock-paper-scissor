@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+	text-align: center;
+	margin-top: 10px;
+}
+.choices{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3vmin;
+    margin-top: 50px;
+
+}
+.choice{
+	height: 100px;
+	width: 100px;
+
+}
+img{
+	height: 100px;
+	width: 100px;
+	border: solid black 1px;
+	
+}
+ #msg{
+ 	text-align: center;
+ 	color: white;
+ 	background-color:black;
+ 	border-radius: 3px;
+ 	border: none;
+ 	width:50vmin;
+
+ }
